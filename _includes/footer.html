@@ -1,0 +1,25 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+       <span class="copyright"><a href="https://creativecommons.org/licenses/by/4.0/"><img src="/img/logos/cc-by.svg" alt="cc-by" width="80" height="30"></a>     &copy; <a href="https://en.gravatar.com/upodesta"> Hassan</a> {{ 'now' | date: "%Y" }} </span>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          {% for network in site.social %}
+          <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="list-inline quicklinks">
+            <li><a href="https://hassan.com.bd/files/privacy-policy">Privacy</a>
+            </li>
+            <li><a href="https://hassan.com.bd/files/terms-of-use">Terms</a>
+            </li>
+			
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

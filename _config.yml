@@ -1,0 +1,73 @@
+
+# Site settings
+title: Hassan and Associates
+language: html "en"
+email: info@hassan.com.bd
+description: Hassan and Associates delivers comprehensive tax advisory, corporate law, and business consulting services with 28+ years of excellence. Based in Dhaka, Bangladesh, we serve clients nationwide and internationally, offering expert guidance in income tax planning, company formation, VAT registration, trade licensing, and regulatory compliance. 
+keywords: Income tax Advisor, Tax Advisor, taxadvisor, Tax Consultants, Company Law, Company Law Advisor, Business Services, Business Service provider, Corporate Tax Planning, Business Consulting Bangladesh
+
+# Your website URL 
+# Used for Sitemap.xml and your RSS feed
+url: htttps://hassan.bd
+     
+baseurl: 
+
+# Team names, titles and social links
+# a change in the length of the longest description affects /agency.css .team-member p.description
+people:
+- name: Syed Hassan Ali
+  pic: 1
+  position: CEO & Founder
+  social:
+    
+    - title: globe 
+      url: https://taxadvisor.com.bd
+    - title: vimeo
+      url: https://vimeo.com/taxadvisor
+    - title: github
+      url: https://github.com/Hassan-and-Associates
+    - title: wordpress
+      url: https://hassanandassociates.wordpress.com
+    - title: globe
+      url: https://hassanandassociates.business.site
+    
+    
+    
+  description: Syed Hassan Ali is a distinguished expert in income tax and corporate law with an exceptional track record spanning multiple decades. His extensive experience includes serving as Consultant, Project Advisor, and Company Secretary for prominent local, multinational, and international corporations. His expertise encompasses corporate tax optimization, VAT management, regulatory compliance, corporate governance frameworks, asset management, feasibility analysis, and strategic business consulting
+
+- name: Ekhlasur Rahman
+  pic: 2
+  position: Co-ordinator
+  social:
+    
+    - title: vk
+      url: https://vk.com/hassanandassociates
+    - title: pinterest
+      url: https://www.pinterest.com/hassan_and_associates/_created/
+    - title: google 
+      url: https://sites.google.com/site/taxadvisorbd/
+    
+  description: Ekhlasur Rahman serves as the primary point of contact at Hassan and Associates, managing all client communications with professionalism and efficiency. His responsibilities encompass client relations, appointment coordination, and financial administration. With meticulous attention to detail, he ensures thorough review and preparation of all documentation prior to client consultations. His dedication to providing exceptional service and personalized guidance makes him an invaluable asset to our clients and team
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/hassan.com.bd
+  - title: linkedin
+    url: https://www.linkedin.com/company/hassanassociates
+  - title: youtube
+    url: https://www.youtube.com/channel/UCdKY7Ei8I9x5-UbYFehlGXw
+  - title: twitter
+    url: https://twitter.com/hasanassociates
+  - title: instagram
+    url: https://www.instagram.com/hassanandassociates
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 
+  - line: 
+  - line: 
+
+# Build settings
+markdown: kramdown
+permalink: pretty
